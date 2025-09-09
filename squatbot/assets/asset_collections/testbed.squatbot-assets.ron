@@ -1,0 +1,85 @@
+({
+    "textures/player/normal/f12_128_204_idle": Image (
+        path: "textures/player/normal/f12_128_204_idle.png",
+        sampler: Nearest
+    ),
+    "textures/player/normal/f12_128_204_idle#layout": TextureAtlasLayout (
+        tile_size_x: 128,
+        tile_size_y: 204,
+        columns: 8,
+        rows: 2
+    ),
+    "textures/player/normal/f12_128_204_idle#meta": AnimationMetadataAsset (
+        num_indices: 12,
+        animation_speed: 0.03,
+        is_looping: true,
+        anchor_x: -0.4,
+        anchor_y: 0.18,
+        flipped_anchor_x: 0.05,
+        flipped_anchor_y: 0.0,
+    ),
+    "textures/player/normal/f9_128_204_jump": Image (
+        path: "textures/player/normal/f9_128_204_jump.png",
+        sampler: Nearest
+    ),
+    "textures/player/normal/f9_128_204_jump#layout": TextureAtlasLayout (
+        tile_size_x: 128,
+        tile_size_y: 204,
+        columns: 8,
+        rows: 2
+    ),
+    "textures/player/normal/f9_128_204_jump#meta": AnimationMetadataAsset (
+        num_indices: 9,
+        animation_speed: 0.02,
+        is_looping: false,
+        anchor_x: -0.4,
+        anchor_y: 0.18,
+        flipped_anchor_x: 0.05,
+        flipped_anchor_y: 0.0,
+    ),
+    "textures/player/normal/f12_128_204_airIdle": Image (
+        path: "textures/player/normal/f12_128_204_airIdle.png",
+        sampler: Nearest
+    ),
+    "textures/player/normal/f12_128_204_airIdle#layout": TextureAtlasLayout (
+        tile_size_x: 128,
+        tile_size_y: 204,
+        columns: 8,
+        rows: 2
+    ),
+    "textures/player/normal/f12_128_204_airIdle#meta": AnimationMetadataAsset (
+        num_indices: 12,
+        animation_speed: 0.03,
+        is_looping: true,
+        anchor_x: -0.4,
+        anchor_y: 0.18,
+        flipped_anchor_x: 0.05,
+        flipped_anchor_y: 0.0,
+    ),
+    "textures/checkpoint": Image (
+        path: "textures/checkpoint.png",
+        sampler: Nearest
+    ),
+    "textures/checkpoint#layout": TextureAtlasLayout (
+        tile_size_x: 190,
+        tile_size_y: 240,
+        columns: 10,
+        rows: 4
+    ),
+    "textures/checkpoint#meta": AnimationMetadataAsset (
+        num_indices: 40,
+        animation_speed: 0.02,
+        is_looping: false,
+        anchor_x: 0.0,
+        anchor_y: 0.0,
+        flipped_anchor_x: 0.0,
+        flipped_anchor_y: 0.0,
+    ),
+    "textures/platform": Image (
+        path: "textures/platform.png",
+        sampler: Nearest
+    ),
+    "shaders/testbed_skybox_2d": File (
+        path: "shaders/testbed_skybox_2d.wgsl",
+    ),
+})
